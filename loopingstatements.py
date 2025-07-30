@@ -20,3 +20,30 @@ for i in range(n):
         print("loop has been ended now")
     else:
         print(i)
+
+# run a for loop in string and noticed and each character is printed on next line so i will run next loop in such a way that each character will be printed on same line
+for char in "hello":
+    print(char)
+
+for i in "Pratik":
+    print(i,end=" ")
+print()
+# run a for loop in array
+for item in [1,2,3,4,5,6,7,8,9,10]:
+    print(item)
+
+# learn about enumerates in python and got to know that it is used in python when we need an index as well as value
+fruits=["orange","mango","banana"]
+for i in range(len(fruits)):
+    print(i,fruits[i])
+
+# and in below code,fruit is used to iterate over values of array
+for index,fruit in enumerate(fruits):
+    print(index,fruit)
+
+# task ,you will be give array containing values from 10 to 100 diff by 10 in each next value and make use of enumerate function and increment each value by 1
+array=[10,20,30,40,50,60,70,80,90,100]
+for index,value in enumerate(array):
+    array[index]=value+1
+    print(index,array[index])
+
