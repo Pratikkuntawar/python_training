@@ -1,3 +1,4 @@
+import math_utils
 # simple hello world Statements
 print("Hello, World!!")
 
@@ -21,3 +22,6 @@ print(f"Your Entered Name is {name}")
 age=int(input("Enter Your Age:"))
 print(type(age))
 print(f"My age is {age}")
+
+print(f"sum of 10 and 5 is {math_utils.add(10,5)}")
+print(f"The area of circle having radius 7 is {2*math_utils.PI*7}")
